@@ -10,8 +10,8 @@ function App() {
     <>
     <div className='logo'>
       <div className='logoPlace'>
-        <Logo src={viteLogo} href="https://vite.dev" alt="Vite logo" />
-        <Logo src={reactLogo} href="https://react.dev" alt="React Logo" />
+        <Logo props={{ src: viteLogo, href: "https://vite.dev", alt: "Vite logo" }} />
+        <Logo props={{ src: reactLogo, href: "https://react.dev", alt: "React Logo" }} />
       </div>
       <h1 className='logo'>Vite + React</h1>
       <div className="card">

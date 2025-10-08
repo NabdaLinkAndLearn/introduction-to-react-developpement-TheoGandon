@@ -1,12 +1,12 @@
 import '../App.css'
 
-function Logo({ src, href, alt }) {
+function Logo({ props }) {
   
   return (
     <>
       <div>
-        <a href={href} target="_blank">
-          <img src={src} className="logo" alt={alt} />
+        <a href={props.href} target="_blank">
+          <img src={props.src} className="logo" alt={props.alt} />
         </a>
       </div>
     </>
