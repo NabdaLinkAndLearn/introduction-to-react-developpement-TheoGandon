@@ -9,14 +9,10 @@ function App() {
   return (
     <>
     <div className='logo'>
-      <Logo 
-        viteLogo={viteLogo} 
-        reactLogo={reactLogo}
-        viteHref="https://vite.dev"
-        reactHref="https://react.dev"
-        viteAlt="Vite logo"
-        reactAlt="React logo"
-      />
+      <div className='logoPlace'>
+        <Logo src={viteLogo} href="https://vite.dev" alt="Vite logo" />
+        <Logo src={reactLogo} href="https://react.dev" alt="React Logo" />
+      </div>
       <h1 className='logo'>Vite + React</h1>
       <div className="card">
         <button className='logo' onClick={() => setCount((count) => count + 1)}>
